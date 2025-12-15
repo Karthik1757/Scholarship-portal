@@ -1,0 +1,10 @@
+project_id = "tqvmryerlnokkatbvotc"
+
+[functions.match-scholarships]
+verify_jwt = true
+
+[functions.send-application-email]
+verify_jwt = true
+
+[functions.send-deadline-reminders]
+verify_jwt = false
